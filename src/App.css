@@ -1,5 +1,89 @@
 .App {
   text-align: center;
+  background-image: url("skimax.jpg");
+  overflow-x: hidden;
+  opacity: 0.9;
+  background-size:cover;
+
+}
+#rat {
+    padding:100px;
+}
+
+
+#boy {
+    max-width: 300px;
+    padding-left: 480px;
+    padding-top: 160px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: antiquewhite;
+}
+input {
+    border-radius: 3px;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+#cat {
+    display: grid;
+    color: black;
+    justify-content: center
+}
+#dog {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+table {
+    color: antiquewhite;
+}
+
+#bus {
+    color: antiquewhite;
+    font-family: Sylfaen, sans-serif;
+    font-size: 18px;
+}
+
+
+label {
+    color: antiquewhite;
+    font-family: 'Yu Gothic', sans-serif;
+}
+
+
+input[type=text] {
+    color: cornflowerblue;
+}
+
+
+video {
+    border-radius: 50px;
+}
+
+#dog:hover {
+    color:red;
+}
+
+#cow {
+    color: antiquewhite;
+}
+
+
+
+
+#btn {
+    padding: 20px;
+    color: cornflowerblue;
+    background-color: mintcream;
+    border-radius: 5px;
+    font-weight:bold;
+    font-size: 20px;
 }
 
 .App-logo {
@@ -14,14 +98,21 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: grey;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    box-sizing: border-box;
+    width: 1000px;
+    opacity: 0.5;
+}
+
+h1 a {
+    color: antiquewhite;
+    cursor: pointer;
 }
 
 .App-link {
